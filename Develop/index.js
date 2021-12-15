@@ -34,6 +34,13 @@ const promptUser = () => {
         }
       },
       {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license',
+        choices: ['MIT', 'MPL 2.0']
+
+      },
+      {
         type: 'input',
         name: 'install',
         message: 'Enter your installation instructions',
@@ -55,6 +62,32 @@ const promptUser = () => {
             return true;
           } else {
             console.log('Please enter your usage information!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'username',
+        message: 'Enter your github username',
+        validate: descriptionInput => {
+          if (descriptionInput) {
+            return true;
+          } else {
+            console.log('Please enter your username!');
+            return false;
+          }
+        }
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email',
+        validate: descriptionInput => {
+          if (descriptionInput) {
+            return true;
+          } else {
+            console.log('Please enter your email!');
             return false;
           }
         }
@@ -87,13 +120,13 @@ const promptUser = () => {
       }
     ])
     .then(data => {
-        questions.push(data);
+        questions.push(data)
         console.log(questions);
         return questions;
 
       });
   };
-const generate = generateMarkdown(questions);
+
 
 
 // // TODO: Create a function to write README file
@@ -105,8 +138,12 @@ const generate = generateMarkdown(questions);
 // // Function call to initialize app
 // init();
 promptUser()
-.then(questions => {
-  return generateMarkdown(questions)
-}).then(fs.writeFile('./index.html', generate, err => {
-  if (err) throw err;
-}))
+    .then(questions => {
+        return generateMarkdown(questions)
+    })
+    .then(generated => {
+        fs.writeFile("./README.md", generated, err => {
+            if (err) throw err;
+            console.log("File successfully written");
+        })
+    });
