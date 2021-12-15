@@ -42,7 +42,7 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${test}
   
   # Questions
-<github.com/${username}
+  [${username}(github.com/${username})
   E-mail: ${email}
 `
 ;
