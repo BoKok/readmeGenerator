@@ -11,34 +11,31 @@
 // function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-const fs = require('fs');
-const generatePage = (data) => {
-  console.log(data);
-}
-function generateMarkdown(data) {
-  fs.writeFile('./README.md', generatePage(data), err => {
-    if (err) throw err;
-  });
-  return `# ${data.title}
+function generateMarkdown() {
+const {title, description, install, usage, contribution, test} = generateMarkdown;
+
+  return `
+  # ${title}
 
   ## Description 
-  ${data.description}
+  ${description}
 
   ## Table of Contents
 
   ## Installation
-  ${data.install}
+  ${install}
 
   ## Usage 
-  ${data.usage}
+  ${usage}
 
   ## Contribution
-  ${data.contribution}
+  ${contribution}
 
   ## Test
-  ${data.test}
+  ${test}
   
-`;
+`
+;
 
 }
 
