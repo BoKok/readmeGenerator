@@ -21,13 +21,13 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${description}
 
   ## Table of Contents
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Contribution](#Contribution)
-  [Test](#Test)
+  1. [Installation](#Installation)
+  2. [Usage](#Usage)
+  3. [Contribution](#Contribution)
+  4. [Test](#Test)
 
-  ##License
-  [![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg]
+  ## License
+  ![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg
 
   ## Installation
   ${install}
@@ -42,7 +42,7 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${test}
   
   # Questions
-  <github.com/${username}>
+<github.com/${username}
   E-mail: ${email}
 `
 ;
