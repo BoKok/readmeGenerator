@@ -42,8 +42,9 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${test}
   
   # Questions
-  [${username}(github.com/${username})
-  E-mail: ${email}
+  You can reach me here.
+  [${username}](github.com/${username})
+  E-mail: <${email}>
 `
 ;
 
