@@ -27,7 +27,7 @@ const {title, description, install, usage, contribution, test, email, username, 
   4. [Test](#Test)
 
   ## License
-  [![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]
+  ![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)
 
   ## Installation
   ${install}
@@ -43,9 +43,9 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${test}
   
   # Questions
-  You can reach me here.
-  [${username}](github.com/${username})
-  E-mail: <${email}>
+  > You can reach me here.
+  > [${username}](github.com/${username})
+  > E-mail: <${email}>
 `
 ;
 
