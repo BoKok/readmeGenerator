@@ -22,6 +22,7 @@
 
   ## Test
   Open a terminal and access the index.js file, then enter 'node index'
+  https://user-images.githubusercontent.com/93046469/146649704-aa6f8a2b-5a54-45bd-a68e-02700a333eaa.mp4
   
   # Questions
    You can reach me here.<br>
