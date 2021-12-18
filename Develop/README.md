@@ -1,8 +1,8 @@
 
-  # yaryraehj
+  # Readme Generator
 
   ## Description 
-  srjsgfs
+  This creates a readme template that will require the user input
 
   ## Table of Contents
   1. [Installation](#Installation)
@@ -11,22 +11,22 @@
   4. [Test](#Test)
 
   ## License
-  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL 2.0-yellow.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Installation
-  rjsfghst
+  Copy the code from github and go to the index.js file
 
   ## Usage 
-  jtdrjaewrt<br>
-  This project is rendered under the MPL 2.0 license.
+  Up to your discretion<br>
+  This project is rendered under the MIT license.
 
   ## Contribution
-  srthbfgs
+  N/A
 
   ## Test
-  rhaeb
+  Open a terminal and access the index.js file, then enter 'node index'
   
   # Questions
    You can reach me here.<br>
-   [afgshgsf](github.com/afgshgsf)<br>
-   E-mail: <aerwtggxf>
+   [bokok](github.com/bokok)<br>
+   E-mail: <kokbo@yahoo.com>
