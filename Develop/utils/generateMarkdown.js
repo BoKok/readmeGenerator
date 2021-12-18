@@ -33,7 +33,7 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${install}
 
   ## Usage 
-  ${usage}
+  ${usage}<br>
   This project is rendered under the ${license} license.
 
   ## Contribution
@@ -43,9 +43,9 @@ const {title, description, install, usage, contribution, test, email, username, 
   ${test}
   
   # Questions
-  > You can reach me here.
-  > [${username}](github.com/${username})
-  > E-mail: <${email}>
+   You can reach me here.<br>
+   [${username}](github.com/${username})<br>
+   E-mail: <${email}>
 `
 ;
 
