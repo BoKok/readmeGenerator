@@ -27,7 +27,7 @@ const {title, description, install, usage, contribution, test, email, username, 
   4. [Test](#Test)
 
   ## License
-  ![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg
+  ${license}
 
   ## Installation
   ${install}

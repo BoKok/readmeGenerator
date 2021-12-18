@@ -37,7 +37,7 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Choose a license',
-        choices: ['MIT', 'MPL 2.0']
+        choices: ['[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)', 'MPL 2.0']
 
       },
       {
